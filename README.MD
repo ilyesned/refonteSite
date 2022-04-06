@@ -43,7 +43,7 @@
 
 * L'utilisation des pixels au lieu des rem
 
-* Certaine parti du css devrait être muni d'un "max" car sinon la taille sera en dur 
+* Certaine propriété devrait intégrer un "max" comme par exemple "max-width" pour que l'affichage se fasse de manière dynamique
 
 ### JAVASCRIPT
 
