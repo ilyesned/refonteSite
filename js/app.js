@@ -10,5 +10,13 @@ localStorage.setItem("email", user.login)
 localStorage.setItem("mdp", user.mdp)
 user.btn.addEventListener("click",(e)=>{
     e.preventDefault();
-    user.el.value == user.login && user.pass.value == user.mdp ? alert("connexion réussie") : alert("connexion échouée")
+    user.el.value == user.login && user.pass.value == user.mdp ? Swal.fire(
+        'Connexion réussi!',
+        'Bonjour User_#!',
+        'success'
+      ) : Swal.fire(
+        'Oops...',
+        'Tes identifiants son incorrect!',
+        'error'
+      )
 })
