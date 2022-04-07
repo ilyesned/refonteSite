@@ -1,31 +1,65 @@
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Webpage Design</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <h1>PraRoz</h1>
         <nav>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">DESIGN</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-            <form class="search" action="">
-                <input class="srch" type="text" placeholder="Search">
-                <input type="submit" value="Search">
-            </form>
-        </nav>  
+            <section class="icon">
+                <h2 class="logo">PraRoz</h2>
+            </section>
+            <section class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </section>
+            <section>
+                <form class="search" action="https://www.google.com/search" method="GET">
+                    <input class="srch" type="search" name="q" placeholder="Effectuez une recherche">
+                    <button type="submit" name="submit" value="recherche" class="btn" id="">
+                </form>
+            </section>
+        </nav>
     </header>
+
     <main>
-        
+        <section class="content">
+            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
+                 expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
+                <br> a quae totam ipsa illum minus laudantium?</p>
+                <button class="cn"><a href="#">JOIN US</a></button>
+        </section>
+        <section class="form">
+            <h1>Login Here</h1>
+            <input type="email" name="email" id="email" placeholder="Enter Email Here">
+            <input type="password" name="password" id="password" placeholder="Enter Password Here">
+            <button class="btn_connect"><a href="#">Login</a></button>
+
+            <p class="link">Don't have an account<br>
+            <a href="#">Sign up </a> here</a></p>
+            <p class="liw">Log in with</p>
+
+            <section class="icons">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            </section>
+
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>zdozdopoz</p>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
